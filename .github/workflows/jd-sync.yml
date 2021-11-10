@@ -18,7 +18,7 @@ jobs:
           persist-credentials: false
       - name: sync zero205-scripts
         uses: repo-sync/github-sync@v2
-        if: env.PAT
+        if: env.Token
         with:
           source_repo: "https://github.com/zero205/JD_tencent_scf.git"
           source_branch: "main"
