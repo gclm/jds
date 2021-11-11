@@ -1,6 +1,8 @@
 # JD
 > jd script
 
+![JD Sync](https://github.com/gclm/jd/actions/workflows/jd-sync.yml/badge.svg)
+
 ## 使用教程
 
 ### 青龙面板安装
