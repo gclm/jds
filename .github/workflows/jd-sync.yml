@@ -3,12 +3,17 @@
 name: JD CI Sync
 
 on:
+  push:
   workflow_dispatch:
+  schedule:
+    # 每3个小时更新一次代码仓库
+    - cron: '1 */3 * * *'
+  
   
 jobs:
   repo-sync:
     env:
-      Token: ${{ secrets.Token }} #此处PAT需要申请，教程详见：https://www.jianshu.com/p/bb82b3ad1d11,需要repo和workflow权限
+      Token: ${{ secrets.Token }}
     runs-on: ubuntu-latest
     timeout-minutes: 3
     if: github.event.repository.owner.id == github.event.sender.id
