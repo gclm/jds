@@ -26,11 +26,11 @@ docker run -dit \
 ### 导入脚本
 - 国外鸡
   ```
-  ql repo https://github.com/gclm/jds.git "jd_|jx_|jddj_" "backUp" "^jd[^_]|USER|JD|function|sendNotify"
+  ql repo https://github.com/gclm/jds.git "jd_|jx_|jddj_" "backUp" "^jd[^_]|USER|JD|function|sendNotify" "main"
   ```
 - 国内鸡
   ```
-  ql repo https://ghproxy.com/https://github.com/gclm/jds.git "jd_|jx_|jddj_" "backUp" "^jd[^_]|USER|JD|function|sendNotify"
+  ql repo https://ghproxy.com/https://github.com/gclm/jds.git "jd_|jx_|jddj_" "backUp" "^jd[^_]|USER|JD|function|sendNotify" "main"
   ```
 - crontab
   ```
