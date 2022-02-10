@@ -1,7 +1,7 @@
 # JD
 > jd script
 
-![JD Sync](https://github.com/gclm/jd/actions/workflows/jd-sync.yml/badge.svg)
+![JD Sync](https://github.com/gclm/jds/actions/workflows/jd-sync.yml/badge.svg)
 
 ## 使用教程
 
@@ -26,22 +26,18 @@ docker run -dit \
 ### 导入脚本
 - 国外鸡
   ```
-  ql repo https://github.com/gclm/jd.git "jd_|jx_|getJDCookie" "backUp|icon" "^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign" "main"
+  ql repo https://github.com/gclm/jds.git "jd_|jx_|jddj_" "backUp" "^jd[^_]|USER|JD|function|sendNotify"
   ```
 - 国内鸡
   ```
-  ql repo https://ghproxy.com/https://github.com/gclm/jd.git "jd_|jx_|getJDCookie" "backUp|icon" "^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign" "main"
+  ql repo https://ghproxy.com/https://github.com/gclm/jds.git "jd_|jx_|jddj_" "backUp" "^jd[^_]|USER|JD|function|sendNotify"
   ```
 - crontab
   ```
-  0 0 0 * * *
+  40 8-23/4 * * *
   ```
-
-### 环境变量
-
-- [配置参数](https://github.com/gclm/jd/blob/main/githubAction.md)
 
 ### 参考资料
 
-- [脚本来源](https://github.com/zero205/JD_tencent_scf/tree/main)
-- [使用教程](https://github.com/gclm/jd/blob/main/githubAction.md)
+- [脚本来源](https://github.com/6dylan6/jdpro)
+- [使用教程](https://github.com/6dylan6/jdpro)
